@@ -57,3 +57,63 @@ To develop a user-friendly and efficient desktop-based application in C++ that m
 
 **Conclusion:**
 The Vehicle Rental System effectively manages all critical operations involved in vehicle booking and monitoring. It is modular, user-oriented, and handles persistent storage through simple yet reliable file operations, making it ideal for small rental businesses or academic demonstration.
+
+2.**Project Title: Modern Tic Tac Toe with AI (Console Edition)**
+
+**Project Description:**
+This project is a fully featured and modernized console-based implementation of the classic Tic Tac Toe game, developed in C++. It supports a dynamic board size (N x N) and a customizable win condition (K in a row), enhancing replayability and challenge.
+
+**Key Features:**
+
+1. **Dynamic Board Size & Win Condition:**
+
+   * Players can choose any board size (N > 2) and a win condition (K <= N), making the game scalable from simple 3x3 boards to larger, more complex setups.
+
+2. **AI Opponent with Difficulty Levels:**
+
+   * The game offers two AI modes:
+
+     * *Easy Mode:* The AI selects moves randomly.
+     * *Hard Mode:* Uses the Minimax algorithm to make intelligent decisions, making it a challenging opponent.
+
+3. **Colored Output for Enhanced UX:**
+
+   * Human ('X') moves are displayed in **blue**, AI ('O') in **red**, and winning moves are highlighted in **green** using ANSI color codes.
+
+4. **Sound Feedback:**
+
+   * Winning and draw outcomes trigger distinct beeps for auditory feedback.
+
+5. **Scoreboard System:**
+
+   * The system keeps track of human wins, AI wins, and draws.
+   * Scores are auto-saved to a file (`score.txt`) and loaded on each launch.
+
+6. **Clear Console UI:**
+
+   * Screen is cleared between moves and results using `system("cls")` for a clean interface.
+
+**Technical Summary:**
+
+* Language: C++
+* Platform: Windows Console
+* Key Concepts: Minimax Algorithm, File I/O, ANSI Color Codes, Vector Data Structure
+* Files:
+
+  * `Game3.cpp` (Source Code)
+  * `Game3.exe` (Executable Binary)
+  * `score.txt` (Auto-generated Score Record)
+
+**Target Audience:**
+This project is aimed at beginner to intermediate level programmers and students who want to understand game development logic, AI implementation with Minimax, and interactive console-based applications in C++.
+
+**Learning Outcomes:**
+
+* Implement AI using the Minimax algorithm
+* Handle dynamic memory and board logic using STL
+* Manage user input, validation, and interface design in console apps
+* Use sound and color to enhance interactivity
+* Practice modular coding, debugging, and file handling
+
+**Conclusion:**
+The project showcases a complete and engaging gaming experience using fundamental and advanced C++ programming concepts. It blends strategic gameplay with technical depth and provides an excellent foundation for exploring AI in games.
