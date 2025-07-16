@@ -3,10 +3,10 @@
 
 **Project Title :** Vehicle Rental System (VRS).
 
-**Objective:**
+**Objective :**
 To develop a user-friendly and efficient desktop-based application in C++ that manages the end-to-end vehicle rental process, including vehicle and user management, trip booking, and fare calculation. The system ensures smooth coordination between customers and the service provider for renting vehicles.
 
-**Modules:**
+**Modules :**
 
 1. **Vehicle Management**
 
@@ -27,9 +27,9 @@ To develop a user-friendly and efficient desktop-based application in C++ that m
    * Calculate fare based on distance traveled and vehicle rate.
    * Data handled through `trips.txt`.
 
-**Core Features:**
+**Core Features :**
 
-* Data Validation:
+* Data Validation :
 
   * Date validation using custom `validDate()` function supporting both 1- and 2-digit day/month entries.
   * Contact number validation (10 digits).
@@ -37,63 +37,63 @@ To develop a user-friendly and efficient desktop-based application in C++ that m
 * Console-based interface using C++ standard and Windows-specific headers (`<conio.h>`, `system("cls")`).
 * ASCII box output for better visual messages.
 
-**User Flow:**
+**User Flow :**
 
 * Users can register and provide contact information.
 * Admin can add and manage vehicles.
 * Trips can be booked with a registered user and an available vehicle.
 * Admin can start a trip (mark InProgress), complete it by providing end odometer reading and end date, and fare is auto-calculated.
 
-**Data Handling:**
+**Data Handling :**
 
 * Text-based file storage for all modules: `vehicles.txt`, `users.txt`, `trips.txt`.
 * Loading and saving done via file streams.
 
-**Technologies Used:**
+**Technologies Used :**
 
 * Programming Language: C++
 * File Handling: Text files
 * Platform: Windows (console-based)
 
-**Conclusion:**
+**Conclusion :**
 The Vehicle Rental System effectively manages all critical operations involved in vehicle booking and monitoring. It is modular, user-oriented, and handles persistent storage through simple yet reliable file operations, making it ideal for small rental businesses or academic demonstration.
 
 2.**Project Title : Modern Tic Tac Toe with AI (Console Edition)**.
 
-**Project Description:**
+**Project Description :**
 This project is a fully featured and modernized console-based implementation of the classic Tic Tac Toe game, developed in C++. It supports a dynamic board size (N x N) and a customizable win condition (K in a row), enhancing replayability and challenge.
 
-**Key Features:**
+**Key Features :**
 
-1. **Dynamic Board Size & Win Condition:**
+1. **Dynamic Board Size & Win Condition :**
 
    * Players can choose any board size (N > 2) and a win condition (K <= N), making the game scalable from simple 3x3 boards to larger, more complex setups.
 
-2. **AI Opponent with Difficulty Levels:**
+2. **AI Opponent with Difficulty Levels :**
 
    * The game offers two AI modes:
 
      * *Easy Mode:* The AI selects moves randomly.
      * *Hard Mode:* Uses the Minimax algorithm to make intelligent decisions, making it a challenging opponent.
 
-3. **Colored Output for Enhanced UX:**
+3. **Colored Output for Enhanced UX :**
 
    * Human ('X') moves are displayed in **blue**, AI ('O') in **red**, and winning moves are highlighted in **green** using ANSI color codes.
 
-4. **Sound Feedback:**
+4. **Sound Feedback :**
 
    * Winning and draw outcomes trigger distinct beeps for auditory feedback.
 
-5. **Scoreboard System:**
+5. **Scoreboard System :**
 
    * The system keeps track of human wins, AI wins, and draws.
    * Scores are auto-saved to a file (`score.txt`) and loaded on each launch.
 
-6. **Clear Console UI:**
+6. **Clear Console UI :**
 
    * Screen is cleared between moves and results using `system("cls")` for a clean interface.
 
-**Technical Summary:**
+**Technical Summary :**
 
 * Language: C++
 * Platform: Windows Console
@@ -104,10 +104,10 @@ This project is a fully featured and modernized console-based implementation of 
   * `Game3.exe` (Executable Binary)
   * `score.txt` (Auto-generated Score Record)
 
-**Target Audience:**
+**Target Audience :**
 This project is aimed at beginner to intermediate level programmers and students who want to understand game development logic, AI implementation with Minimax, and interactive console-based applications in C++.
 
-**Learning Outcomes:**
+**Learning Outcomes :**
 
 * Implement AI using the Minimax algorithm
 * Handle dynamic memory and board logic using STL
@@ -115,17 +115,17 @@ This project is aimed at beginner to intermediate level programmers and students
 * Use sound and color to enhance interactivity
 * Practice modular coding, debugging, and file handling
 
-**Conclusion:**
+**Conclusion :**
 The project showcases a complete and engaging gaming experience using fundamental and advanced C++ programming concepts. It blends strategic gameplay with technical depth and provides an excellent foundation for exploring AI in games.
 
-Project Title: Food Court Management System (FCMS)
+3.Project Title : Food Court Management System (FCMS).
 
-Project Description:
+Project Description :
 The Food Court Management System (FCMS) is a C++-based application designed to manage food stalls within a food court environment. It offers a structured and interactive interface for three main types of users: Admins, Food Stall Owners, and Customers. The system provides efficient handling of stall records, menu items, and user authentication while maintaining data persistence through file storage.
 
-Key Features:
+Key Features :
 
-Admin Portal:
+Admin Portal :
 
 Secure login with predefined credentials.
 
@@ -153,13 +153,13 @@ Search stall by ID or filter by food type (e.g., Chinese, Continental, etc.).
 
 Guest access without login requirement.
 
-Data Management:
+Data Management :
 
 All stall and menu data are stored in a plain text file (stalls.txt).
 
 Structured reading and writing ensure data consistency.
 
-Technologies Used:
+Technologies Used :
 
 C++ (Standard Template Library)
 
@@ -167,7 +167,7 @@ File I/O operations
 
 Structured programming
 
-Use Cases:
+Use Cases :
 
 College food court or cafeteria systems
 
@@ -175,7 +175,7 @@ Food festivals and temporary food fairs
 
 Digital food court management solutions for small-scale malls
 
-Advantages:
+Advantages :
 
 Simple and user-friendly console interface.
 
@@ -183,6 +183,6 @@ Clear modular structure for easy expansion and maintenance.
 
 Useful for educational purposes to understand object-oriented and file-based data handling in C++.
 
-Developer: Himanshu Karwa
+Developer : Himanshu Legendary Coder.
 
 This project showcases effective use of structures, vectors, file streams, and basic user interface handling in C++ to create a complete CRUD-based food court management solution.
