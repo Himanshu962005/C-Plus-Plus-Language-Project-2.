@@ -1,7 +1,7 @@
 # C++-Language-Project-2.
-1.**Major Project Description: Vehicle Rental System (VRS)**
+1.**Major Project Description : Vehicle Rental System (VRS)**.
 
-**Project Title:** Vehicle Rental System (VRS)
+**Project Title :** Vehicle Rental System (VRS).
 
 **Objective:**
 To develop a user-friendly and efficient desktop-based application in C++ that manages the end-to-end vehicle rental process, including vehicle and user management, trip booking, and fare calculation. The system ensures smooth coordination between customers and the service provider for renting vehicles.
@@ -58,7 +58,7 @@ To develop a user-friendly and efficient desktop-based application in C++ that m
 **Conclusion:**
 The Vehicle Rental System effectively manages all critical operations involved in vehicle booking and monitoring. It is modular, user-oriented, and handles persistent storage through simple yet reliable file operations, making it ideal for small rental businesses or academic demonstration.
 
-2.**Project Title: Modern Tic Tac Toe with AI (Console Edition)**
+2.**Project Title : Modern Tic Tac Toe with AI (Console Edition)**.
 
 **Project Description:**
 This project is a fully featured and modernized console-based implementation of the classic Tic Tac Toe game, developed in C++. It supports a dynamic board size (N x N) and a customizable win condition (K in a row), enhancing replayability and challenge.
@@ -117,3 +117,72 @@ This project is aimed at beginner to intermediate level programmers and students
 
 **Conclusion:**
 The project showcases a complete and engaging gaming experience using fundamental and advanced C++ programming concepts. It blends strategic gameplay with technical depth and provides an excellent foundation for exploring AI in games.
+
+Project Title: Food Court Management System (FCMS)
+
+Project Description:
+The Food Court Management System (FCMS) is a C++-based application designed to manage food stalls within a food court environment. It offers a structured and interactive interface for three main types of users: Admins, Food Stall Owners, and Customers. The system provides efficient handling of stall records, menu items, and user authentication while maintaining data persistence through file storage.
+
+Key Features:
+
+Admin Portal:
+
+Secure login with predefined credentials.
+
+Add single or multiple food stalls with complete details.
+
+View all registered stalls with their menu and details.
+
+Delete any stall by ID.
+
+Food Stall Portal:
+
+Login system with password recovery using a unique keyword.
+
+View and update stall profile.
+
+Add or remove food items to/from the stall menu.
+
+Modify stall information and menu prices.
+
+Customer Portal:
+
+View all available stalls and their menu items.
+
+Search stall by ID or filter by food type (e.g., Chinese, Continental, etc.).
+
+Guest access without login requirement.
+
+Data Management:
+
+All stall and menu data are stored in a plain text file (stalls.txt).
+
+Structured reading and writing ensure data consistency.
+
+Technologies Used:
+
+C++ (Standard Template Library)
+
+File I/O operations
+
+Structured programming
+
+Use Cases:
+
+College food court or cafeteria systems
+
+Food festivals and temporary food fairs
+
+Digital food court management solutions for small-scale malls
+
+Advantages:
+
+Simple and user-friendly console interface.
+
+Clear modular structure for easy expansion and maintenance.
+
+Useful for educational purposes to understand object-oriented and file-based data handling in C++.
+
+Developer: Himanshu Karwa
+
+This project showcases effective use of structures, vectors, file streams, and basic user interface handling in C++ to create a complete CRUD-based food court management solution.
