@@ -1,0 +1,41 @@
+Nomadia
+202
+7023116768
+deep@gmail.com
+111
+4
+Deepak
+oreo
+5
+Burger|30
+Nachos|25
+Sandwich|35
+Tea|15
+Milkshake|35
+
+Dev
+234
+7678757473
+devi@gmail.com
+222
+1
+Devd
+deep
+2
+Dosa|50
+Vada|30
+
+Himanshu Legendary Blader.
+9625
+7000195809
+Valthimanshu@gmail.com
+09062005
+3
+Valtryek
+Valt Aoi
+5
+Gobi Manchurian|100
+Veg Manchurian|200
+Spring Rolls|300
+Fried Rice|400
+Chilli Paneer|500
