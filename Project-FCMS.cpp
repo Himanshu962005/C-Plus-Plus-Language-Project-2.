@@ -230,9 +230,9 @@ void adminPortal(vector<Stall> &stalls)
 void foodStallPortal(vector<Stall> &stalls)
 {
     system("cls||clear");
-    cout << "+---------------------------------+" << endl;
-    cout << "|Welcome to Food Stall Login Page.|" << endl;
-    cout << "+---------------------------------+" << endl;
+    cout << "+--------------------------------------+" << endl;
+    cout << "|   Welcome to Food Stall Login Page   |" << endl;
+    cout << "+--------------------------------------+" << endl;
     cout << "Enter the Login ID : ";
     string id, password;
     cin >> id;
@@ -483,9 +483,9 @@ void addSingleStall(vector<Stall> &stalls)
 {
     system("cls||clear");
     Stall s;
-    cout << "+------------------------+" << endl;
-    cout << "|Enter the Stall Details.|" << endl;
-    cout << "+------------------------+" << endl;
+    cout << "+-----------------------------+" << endl;
+    cout << "|   Enter the Stall Details   |" << endl;
+    cout << "+-----------------------------+" << endl;
     cout << "Enter the Food Stall Name : ";
     getline(cin, s.name);
     if (s.name.empty())
@@ -816,9 +816,9 @@ int main()
     system("cls");
     vector<Stall> stalls;
     loadStalls("stalls.txt", stalls);
-    cout << "+----------------------------------------+ " << endl;
-    cout << "|Welcome to Food Court Management System.| " << endl;
-    cout << "+----------------------------------------+ " << endl;
+    cout << "+---------------------------------------------+ " << endl;
+    cout << "|   Welcome to Food Court Management System   | " << endl;
+    cout << "+---------------------------------------------+ " << endl;
     waitAndClear();
     system("clear||cls");
     bool running = true;
