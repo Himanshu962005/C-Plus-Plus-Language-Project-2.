@@ -118,20 +118,18 @@ This project is aimed at beginner to intermediate level programmers and students
 **Conclusion :**
 The project showcases a complete and engaging gaming experience using fundamental and advanced C++ programming concepts. It blends strategic gameplay with technical depth and provides an excellent foundation for exploring AI in games.
 
-3.Project Title : Food Court Management System (FCMS).
+3.**Project Title : Food Court Management System (FCMS)**.
 
-Project Description :
+**Project Description :**
 The Food Court Management System (FCMS) is a C++-based application designed to manage food stalls within a food court environment. It offers a structured and interactive interface for three main types of users: Admins, Food Stall Owners, and Customers. The system provides efficient handling of stall records, menu items, and user authentication while maintaining data persistence through file storage.
 
-Key Features :
+**Key Features :**
 
-Admin Portal :
-
-Secure login with predefined credentials.
-
-Add single or multiple food stalls with complete details.
-
-View all registered stalls with their menu and details.
+  **Admin Portal :**
+    
+    * Secure login with predefined credentials.
+    * Add single or multiple food stalls with complete details.
+    * View all registered stalls with their menu and details.
 
 Delete any stall by ID.
 
