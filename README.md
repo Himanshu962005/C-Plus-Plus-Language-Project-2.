@@ -120,69 +120,52 @@ The project showcases a complete and engaging gaming experience using fundamenta
 
 3.**Project Title : Food Court Management System (FCMS)**.
 
-Project Description :
+**Project Description :**
 The Food Court Management System (FCMS) is a C++-based application designed to manage food stalls within a food court environment. It offers a structured and interactive interface for three main types of users: Admins, Food Stall Owners, and Customers. The system provides efficient handling of stall records, menu items, and user authentication while maintaining data persistence through file storage.
 
-Key Features :
+**Key Features :**
 
-Admin Portal :
+**Admin Portal :**
 
-Secure login with predefined credentials.
+* Secure login with predefined credentials.
+* Add single or multiple food stalls with complete details.
+* View all registered stalls with their menu and details.
+* Delete any stall by ID.
+* Food Stall Portal:
+* Login system with password recovery using a unique keyword.
+* View and update stall profile.
+* Add or remove food items to/from the stall menu.
+* Modify stall information and menu prices.
 
-Add single or multiple food stalls with complete details.
+**Customer Portal:**
 
-View all registered stalls with their menu and details.
+* View all available stalls and their menu items.
+* Search stall by ID or filter by food type (e.g., Chinese, Continental, etc.).
+* Guest access without login requirement.
 
-Delete any stall by ID.
+**Data Management :**
 
-Food Stall Portal:
+* All stall and menu data are stored in a plain text file (stalls.txt).
+* Structured reading and writing ensure data consistency.
 
-Login system with password recovery using a unique keyword.
+**Technologies Used :**
 
-View and update stall profile.
+* C++ (Standard Template Library)
+* File I/O operations
+* Structured programming
 
-Add or remove food items to/from the stall menu.
+**Use Cases :**
 
-Modify stall information and menu prices.
+* College food court or cafeteria systems
+* Food festivals and temporary food fairs
+* Digital food court management solutions for small-scale malls
 
-Customer Portal:
+**Advantages :**
 
-View all available stalls and their menu items.
+* Simple and user-friendly console interface.
+* Clear modular structure for easy expansion and maintenance.
+* Useful for educational purposes to understand object-oriented and file-based data handling in C++.
 
-Search stall by ID or filter by food type (e.g., Chinese, Continental, etc.).
+**Developer : Himanshu Legendary Coder.**
 
-Guest access without login requirement.
-
-Data Management :
-
-All stall and menu data are stored in a plain text file (stalls.txt).
-
-Structured reading and writing ensure data consistency.
-
-Technologies Used :
-
-C++ (Standard Template Library)
-
-File I/O operations
-
-Structured programming
-
-Use Cases :
-
-College food court or cafeteria systems
-
-Food festivals and temporary food fairs
-
-Digital food court management solutions for small-scale malls
-
-Advantages :
-
-Simple and user-friendly console interface.
-
-Clear modular structure for easy expansion and maintenance.
-
-Useful for educational purposes to understand object-oriented and file-based data handling in C++.
-
-Developer : Himanshu Legendary Coder.
-
-This project showcases effective use of structures, vectors, file streams, and basic user interface handling in C++ to create a complete CRUD-based food court management solution.
+* This project showcases effective use of structures, vectors, file streams, and basic user interface handling in C++ to create a complete CRUD-based food court management solution.
