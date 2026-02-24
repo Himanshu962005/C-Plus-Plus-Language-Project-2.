@@ -125,7 +125,7 @@ The Food Court Management System (FCMS) is a C++-based application designed to m
 
 **Key Features :**
 
-**Admin Portal :**
+  **Admin Portal :**
 
 * Secure login with predefined credentials.
 * Add single or multiple food stalls with complete details.
