@@ -116,8 +116,7 @@ void printBox(const string &line1, const string &line2 = "", const string &line3
     cout << "+" << string(width - 2, '-') << "+" << endl;
     if (!line1.empty())
         cout << "| " << line1 << string(width - 3 - line1.length(), ' ') << "|\n";
-
-    // Print an empty line (spacer) if line2 is empty and line3 is not empty
+    
     if (line2.empty() && !line3.empty())
         cout << "| " << string(width - 3, ' ') << "|\n";
     else if (!line2.empty())
@@ -139,7 +138,6 @@ vector<Vehicle> loadVehicles()
     {
         if (line.empty())
             continue;
-        // Format: reg|type|company|model|price|puc.
         vector<string> fields;
         size_t prev = 0, pos;
         while ((pos = line.find('|', prev)) != string::npos)
@@ -185,7 +183,6 @@ vector<User> loadUsers()
     {
         if (line.empty())
             continue;
-        // Format: contact|name|email.
         size_t pos1 = line.find('|');
         size_t pos2 = line.find('|', pos1 + 1);
         if (pos1 == string::npos || pos2 == string::npos)
